@@ -1678,6 +1678,8 @@ class QuantumCircuit:
             "c3x",
             "c3sx",  # This is the Qiskit gate name, but the qelib1.inc name is 'c3sqrtx'.
             "c4x",
+            "fsim",
+            "sy"
         }
 
         # Mapping of instruction name to a pair of the source for a definition, and an OQ2 string
